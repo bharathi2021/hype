@@ -3,6 +3,12 @@ body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    line-height: 1.25;
+    font-family: barlow-extralight,barlow,sans-serif;
+  }
+  bold{
+    font-weight: 900;
+    color: #fff
   }
   
   .bgimg-1 {
@@ -46,9 +52,10 @@ body, html {
   }
   
   h3 {
-    letter-spacing: 5px;
+    letter-spacing: normal;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
     color: #111;
   }
   
@@ -56,16 +63,18 @@ body, html {
       background-color: black;
       height:60%;
       padding-top: 200px;
-      color: white;
-     font-size: large;
+      color: lightgray;
+     font-size: 1.55rem;
+   
   }
- 
+  
 #first{
   padding-top: 10%;
 }
 #second{
   padding-top:  10%;
   padding-bottom: 10%;
+  color: white;
 }
 .column {
   float: left;
@@ -118,4 +127,10 @@ body, html {
 .footer,h1,p{
   margin-left: 5px;
   padding-top: 5px;
+}
+.follow{
+  text-align: right;
+}
+.footer-right{
+  text-align: right;
 }
