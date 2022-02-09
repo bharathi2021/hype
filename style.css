@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1 {
+    position: relative;
+    /* opacity: 0.65; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 96px;
+  
+  }
+  .bgimg-1 {
+    background-image: url("image/monkey1.jpg");
+    height: 100%;
+  }
+  #myvideo{
+    margin-top: -21px;
+    background-color: black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 2%;
+    width: 100%;
+    text-align: center;
+    color: ghostwhite;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  #four{
+      background-color: black;
+      height:60%;
+      padding-top: 200px;
+      color: white;
+     font-size: large;
+  }
+ 
+#first{
+  padding-top: 10%;
+}
+#second{
+  padding-top:  10%;
+  padding-bottom: 10%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column1 {
+  float: left;
+  width: 16.55%;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 4%;
+  
+}
+
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.meet-h3{
+  text-align: center;
+   font-size: 5rem;
+    color: black;
+    font-weight: bolder;
+}
+.columncenter {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  
+}
+.rowcenter::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer,h1,p{
+  margin-left: 5px;
+  padding-top: 5px;
+}
