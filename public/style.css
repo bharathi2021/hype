@@ -123,14 +123,37 @@ body, html {
   clear: both;
   display: table;
 }
+.foot{
+  background-color: #111;
+}
+.rowfoot::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-.footer,h1,p{
-  margin-left: 5px;
-  padding-top: 5px;
+.copyrights{
+  margin-left: 7%;
+  
+
 }
-.follow{
-  text-align: right;
+.fa{
+  font-size: x-large !important;
+  color: #111;
 }
-.footer-right{
-  text-align: right;
+
+
+/*.footer{
+  color: #fff;
+  float: left;
+  text-align: left;
+  margin-left: 5%;
+}
+.para{
+  color: lightgray;
+  text-align: left;
+  margin-left: 5%;
+}*/
+.img{
+  width: 10%;
 }
